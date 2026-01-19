@@ -1,5 +1,4 @@
 archivos = list.files(path = "Input/", pattern = "\\.shp$", recursive = T, all.files = T)
-archivos = archivos[-length(archivos)]
 nombres = archivos |> sub(pattern = "/.*", replacement = "") |>  stringr::str_squish()  |>  gsub(pattern = "_shp", replacement = "") |>   stringr::str_squish()
 
 
