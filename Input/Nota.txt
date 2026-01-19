@@ -1,0 +1,2 @@
+Los datos de INEGI son descargados del siguiente link:
+https://www.inegi.org.mx/programas/accidentes/#datos_abiertos

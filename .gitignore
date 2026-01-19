@@ -1,7 +1,23 @@
-Datos/Sin filtrar
-Datos/2021_shp
-Datos/2022_shp
-Datos/2023_shp
-Datos/2021_shp.rar
-Datos/2022_shp.rar
-Datos/2023_shp.rar
+Input/2019_shp/
+Input/2020_shp/
+Input/2021_shp/
+Input/2022_shp/
+Input/2023_shp/
+Input/2024_shp/
+Input/2025_C5/
+
+# R / RStudio
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user/*
+.RDataTmp
+
+# R environment and config (often contain secrets)
+.Renviron
+.Renviron.local
+.Renviron.*.local
+.Rprofile
+.Rprofile.local

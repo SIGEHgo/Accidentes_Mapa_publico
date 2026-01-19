@@ -1,0 +1,193 @@
+ html,
+ body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+ #contenedor_global {
+     display: flex;
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+ }
+
+ #primera_mitad {
+     width: 70vw;
+     height: 100vh;
+     background-color: rgba(112, 114, 114, 0.1);
+     margin: 0;
+     padding: 0;
+ }
+
+ #segunda_mitad {
+     width: 30vw;
+     height: 100vh;
+     /* altura de toda la ventana */
+     overflow-y: auto;
+     /* habilita scroll vertical */
+     overflow-x: hidden;
+     /* opcional: ocultar scroll horizontal */
+     padding: 0;
+     /* si quieres un poco de padding interior */
+     display: flex;
+     /* conviértelo en flex para apilar en columna si lo deseas */
+     flex-direction: column;
+ }
+
+ #segunda_mitad>div {
+     flex: 0 0 auto;
+     /* que no crezcan más allá de su contenido */
+     margin-bottom: 8px;
+     /* opcional: un margen entre gráficas */
+ }
+
+ #map {
+     width: 70vw;
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+ }
+
+ .mi-popup h3 {
+     margin: 0 0 5px;
+     font-size: 1.1em;
+ }
+
+ .mi-popup p {
+     margin: 2px 0;
+     font-size: 0.9em;
+ }
+
+ .card {
+     background: #fff;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 4px 16px;
+     width: 300px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     display: table-cell;
+ }
+
+ .icon {
+     font-size: 48px;
+     color: #007BFF;
+ }
+
+ .info {
+     margin-top: 12px;
+     font-size: 16px;
+     color: #333;
+ }
+
+ .info span {
+     display: block;
+     margin: 4px 0;
+ }
+
+ .notification {
+     background-color: #55555500;
+     color: white;
+     text-decoration: none;
+     padding: 0px 0px;
+     position: relative;
+     display: inline-block;
+     border-radius: 8px;
+     align-content: center;
+ }
+
+ .notification:hover {
+     background: #46464606;
+ }
+
+ .notification .badge {
+     position: absolute;
+     top: -10px;
+     right: -10px;
+     padding: 5px 10px;
+     border-radius: 50%;
+     background-color: rgb(105, 3, 3);
+     color: white;
+ }
+
+ .leaflet-popup-content-wrapper,
+ .leaflet-popup-tip {
+     background: #ffffff00;
+ }
+
+ #accidentes_mes {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ #dia_semana {
+     display: block;
+     width: 30vw;
+     height: 34vh;
+ }
+
+ #grupo_edad {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ #sexo {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ #tipo_accidente {
+     display: block;
+     width: 30vw;
+     height: 60vh;
+ }
+
+ #posible_causa {
+     display: block;
+     width: 30vw;
+     height: 40vh;
+ }
+
+ #clase_accidente {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ #hora {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ #vehiculos_involucrados {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ #afectados {
+     display: block;
+     width: 30vw;
+     height: 33vh;
+ }
+
+ .layer-control-title {
+     font-weight: bold;
+     margin: 5px 0;
+     text-align: center;
+ }
+
+ .info_tablero_seg {
+     margin: 0 0 5px;
+     color: #777;
+     text-align: center;
+ }
+
+ .legend_seguridad {
+     max-width: 20vw;
+ }
