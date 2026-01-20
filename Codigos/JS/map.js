@@ -44,8 +44,8 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
-let anio = 2023;
-let capa_actual = gjson2023;
+let anio = 2024;
+let capa_actual = gjson2024;
 
     // Definir funciones que se usaran como predeterminadas despues
     function formatearFechaHora({ DIA, MES, ANIO, HORA, MINUTOS }) {
